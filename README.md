@@ -1,1 +1,1 @@
-<h1>Homework 27<br>"Getting to know Django"</h1>
+<h1 align="center">Homework 27<br>"Getting to know Django"</h1>
