@@ -1,8 +1,29 @@
 <h1 align="center">Homework 27<br>"Getting to know Django"</h1>
 
 
+## Setup
 
-<details><summary>API</summary>
+1. Clone code to your directory (need git installed):
+    ```shell
+    git clone https://github.com/YuZu-original/homework_27.git <PATH_TO_YOUR_FOLDER>
+    ```
+    and go to the folder `cd <PATH_TO_YOUR_FOLDER>`
+
+2. Create and activate new virtual environment:
+   - Windows
+       ```shell
+       python -m venv venv
+       venv/Scripts/activate # or venv/Scripts/activate.bat
+       ```
+   - Linux/Mac
+       ```shell
+       python3 -m venv venv
+       source venv/bin/activate
+       ```
+3. Install requirements `pip install -r requirements.txt`
+4. Run server `./manage.py runserver`
+
+<details><summary><h2>API</h2></summary>
 
 | url         | methods | description        |
 |-------------|---------|--------------------|
